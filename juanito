@@ -5,6 +5,15 @@
         <title>JUANITO</title>
 
         <style>
+             
+             .descricao{
+                 display: flex;
+             }
+
+            .fotografias{
+                display: flex;
+            }
+
             h1{
                 text-align: center;
                 margin-top: 60px;
@@ -43,7 +52,7 @@
           
           <img src="juanito5.jpg" alt="Jaunito" width="1287" height="39">
           <center>
-          <img src="hawai.jpg" alt="fotografo" width="1000" height="667">
+                <img src="hawai.jpg" alt="fotografo" width="1000" height="667">
           </center>
           
 
@@ -57,14 +66,15 @@
         
 
             <div class="bordinha">
-             <h4>Comecei a trabalhar com apenas 16 anos pois ja era apaixonado pela fotografia.<br><br>No inicio fotografava
-             apenas amigos e familiares,afinal é dificil alguem contratar uma pessoa tão nova para um evento.<br><br>
-             Então decidi entrar em uma empresa que organizava casamentos para crescer no mercado.<br><br>
-             Bem,funcionou aqui estou 10 anos depois sendo meu proprio chefe e trabalhando com o que amo.</h4>
+                <h4>Comecei a trabalhar com apenas 16 anos pois ja era apaixonado pela fotografia.<br><br>No inicio fotografava
+                apenas amigos e familiares,afinal é dificil alguem contratar uma pessoa tão nova para um evento.<br><br>
+                Então decidi entrar em uma empresa que organizava casamentos para crescer no mercado.<br><br>
+                Bem,funcionou aqui estou 10 anos depois sendo meu proprio chefe e trabalhando com o que amo.</h4>
              
             </div>
 
          </div>
+
 
          <div class="separacao">
                 <h2 style="color: white;">SERVIÇOS</h2>
@@ -76,29 +86,52 @@
              <center>
                 <img src="retrato.jpg" alt="rosto de mulher" width="690" height="460">
              </center>
-            <p style="margin-left: 10px;">Antes de tudo, é bom ressaltar que retrato e fotografia são coisas distintas, pois, o gênero retrato é um dos tipos de fotografia.
+             <p style="margin-left: 10px;">Antes de tudo, é bom ressaltar que retrato e fotografia são coisas distintas, pois, o gênero retrato é um dos tipos de fotografia.
              São considerados retratos as fotografias que mostram um rosto em destaque, assim, um retrato precisa ter ao menos uma pessoa. Portanto, não necessariamente o retrato precisa ser como uma foto 3×4, contendo apenas um rosto.
              Uma fotografia de um cenário que conte com uma pessoa de rosto visível, já pode ser considerada um retrato.
-            </p>
+             </p>
              
              <h1>Fotografia de publicidade.</h1>
              <center>
                 <img src="publicitaria.jpg" alt="coca cola" width="690" height="460">
-            </center>
-            <p style="margin-left: 10px;">A fotografia publicitária exige preparo anterior às fotos, assim, é normal que elas sejam planejadas antes da sua produção. Esse tipo de foto exige um tempo dedicado à identificação da persona que será o alvo da campanha.
+             </center>
+             <p style="margin-left: 10px;">A fotografia publicitária exige preparo anterior às fotos, assim, é normal que elas sejam planejadas antes da sua produção. Esse tipo de foto exige um tempo dedicado à identificação da persona que será o alvo da campanha.
                     Além disso, é preciso analisar quais são as mídias e canais de comunicação que darão suporte à campanha publicitária.
                     Também conhecidas como fotografias comerciais, essas fotos são utilizadas pelas marcas, com a finalidade de transmitir visualmente os seus valores e o propósito da campanha.
-            </p>
+             </p>
 
-            <h1>Fotografia infantil.</h1>
-            <center>
+             <h1>Fotografia infantil.</h1>
+             <center>
                 <img src="infantil.jpg" alt="criança" width="690" height="460">
-            </center> 
-            <p style="margin-left: 10px;">Esse tipo de ensaio é feito nos primeiros dias de vida do bebê, reproduzindo muita fofura e beleza, em fotos divertidas e memoráveis.
-            </p>
-         </div>
+             </center> 
+             <p style="margin-left: 10px;">Esse tipo de ensaio é feito nos primeiros dias de vida do bebê, reproduzindo muita fofura e beleza, em fotos divertidas e memoráveis.
+             </p>
+             
+            </div>
 
 
-    </body>
+            <div class="separacao">
+                <h1 style="color: white;">VIAGENS</h1>
+            </div>
+            
+            <center>
+            <h4 style="margin-left: 20px;">Fotos de momentos e lugares que tive a honra de viver e estar nos ultimos anos.</h4>
+            </center>
+            
+            <div class ="fotografias">
+
+                <img src="viagem1.jpeg" alt="pedronabrabissima" width="400" height="300" style="margin-left:200px">
+                <img src="viagem2.jpeg" alt="galinha" width="400" height="300" style="margin-left: 90px;">
+
+            </div>
+
+            <div class="descricao">
+                <p style="margin-left: 40px;">Prévia do carnaval cubano em Cienfuegos.</p> 
+                <p style="margin-left:180px;">A linda paisagem pastoril de Viñales, no estado de Pinar del Río.</p>
+            </div>
+
+        </body>
+        
 </html>
+
 
