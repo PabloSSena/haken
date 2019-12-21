@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 
 <html>
     <head>
@@ -8,6 +8,7 @@
              
              .descricao{
                  display: flex;
+                 margin-left: 150px;
              }
 
             .fotografias{
@@ -126,12 +127,32 @@
             </div>
 
             <div class="descricao">
-                <p style="margin-left: 40px;">Prévia do carnaval cubano em Cienfuegos.</p> 
-                <p style="margin-left:180px;">A linda paisagem pastoril de Viñales, no estado de Pinar del Río.</p>
+                <p style="margin-left: 100px;">Prévia do carnaval cubano em Cienfuegos.</p> 
+                <p style="margin-left:160px;">A linda paisagem pastoril de Viñales, no estado de Pinar del Río.</p>
+            </div>
+
+            <div class="fotografias">
+                <img src="viagem3.jpeg" alt="grandcanyon" width="400" height="300" style="margin-left: 200px;">
+                <img src="viagem4.jpg" alt="Caverna" width="400" height="300" style="margin-left: 90px;">
+            </div>
+
+            <div class="descricao">
+                <p style="margin-left: 100px;">Grand Canyon - Estados Unidos</p>
+                <p style="margin-left: 350px;">Terra Ronca - Brasil</p>
+            </div>
+
+            <div class="fotografias">
+                <img src="viagem5.jpeg" alt="Mexico" width="400" height="300" style="margin-left: 200px;">
+                <img src="viagem6.jpeg" alt="Canada" width="400" height="300" style="margin-left: 90px;">
+
+            </div>
+
+            <div class="descricao">
+                <p style="margin-left: 180px;">Yucatán - México</p>
+                <p style="margin-left: 380px;">Rochosas - Canadá</p>
             </div>
 
         </body>
         
 </html>
-
 
