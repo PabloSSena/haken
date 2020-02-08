@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body{
+    background-image: url(bonitin.png);
+
+
+
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: #F8F8FF;
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  
+  
+}
+
+.barra1{
+    float: left;
+    width: 50px;
+    height: 550px;
+    display: block;
+    background-color: #F8F8FF;
+  
+
+}
+
+.barra1 h1{
+    color: #F8F8FF;
+}
+
+.barra2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #F8F8FF;
+    vertical-align: bottom;
+
+}
+
+.barra2 h1{
+    color: #F8F8FF;
+}
+
+.barra3{
+    width: 50px;
+    height: 550px;
+    display: flex;
+    background-color: #F8F8FF;
+    float: right;
+
+}
+
+.barra3 h1{
+    color: #F8F8FF;
+}
+
