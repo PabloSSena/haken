@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+.pfvr{
+    height: 100%;
+    float: right;
+    display: table;
+    margin-right: 325px;
+    margin-bottom: 100px;
+   
+}
+.pfvr h1{
+    color: black(241, 225, 225);
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    font-weight: 600;
+}
+span{
+    font-weight: 800;
+    
+
+}
