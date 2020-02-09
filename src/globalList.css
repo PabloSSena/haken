@@ -1,0 +1,24 @@
+.whiteBoard{
+    width: 900px;
+    height: 510px;
+    background: white;
+    float: left;
+    margin-left: 150px;
+    margin-top:20px;
+    margin-bottom: 20px;   
+    text-align: center; 
+}
+
+.line{
+    width: 900px;
+    height: 20px;
+    background: blanchedalmond;
+    margin-top: 6px;
+}
+
+.whiteBoard p{
+  
+    text-align: left;
+    vertical-align: middle;
+}
+
