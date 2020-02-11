@@ -30,34 +30,21 @@ class Cadastro extends Component{
   render(){
     
     return (   
-      <body> 
-        <div className = "header">
-          <div className="inner_header"></div>
-        </div>
-           
-        <div className="barra1">
-          <h1>.</h1>
-        </div>
-
-        <div className="barra3">
-          <h1>.</h1>
-        </div>
         
-        <div className="quadro">
-         <div className = "header">
-          <div className="inner_header">
-            <strong>CADASTRAR</strong>
-          </div>
+    <body>
+        <div class="wrapper">
+            <div class="main_nav">
+               
+            </div>
+            <h1 class="contact_text2">CADAS<span>TRO</span></h1>
          </div>
+         <FormRegister addUser={this.addUser}/>
         
-         <FormRegister addUser={this.addUser}/>   
+    </body>
+
+       
         
-        </div>
-        <div className="barra2">
-          <h1>.</h1>
-         </div> 
-         
-      </body>
+
       
         )
         

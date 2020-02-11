@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './main.css';
 
 
 class FormRegister extends Component {
@@ -22,33 +23,26 @@ class FormRegister extends Component {
     return(
          
         <form onSubmit={this.handleSubmit}>
-           <div className="inputs">
-             <label htmlFor="user_name">Nome</label>
-             <input name="user_name" id="user_name" required onChange={this.handleChange}/>
-           </div>
-         
-
-           <div className="inputs">
-             <label htmlFor="user_id">ID do usuário</label>
-             <input name="user_id" id="user_id" required onChange={this.handleChange} />
-           </div>
-         
-
-           <div className="inputs">
-             <label htmlFor="user_number">Numero do telefone</label>
-             <input name="user_number" id="user_number" required onChange={this.handleChange}/>
-           </div>
+           <form>
+      
+             <input name="user_name" id="user_name" required onChange={this.handleChange} placeholder="NOME"/>
+               <br></br>
+             <input name="user_id" id="user_id" required onChange={this.handleChange} placeholder="ID"/>
+        
+             <br></br>
+             <input name="user_number" id="user_number" required onChange={this.handleChange} placeholder="NUMERO"/>
        
-
-           <div className="inputs">
-             <label htmlFor="user_email">Email</label>
-             <input name="user_email" id="user_email" required onChange={this.handleChange}/>
-           </div>
-           
-           <div className="inputs">
-          <button>Salvar</button>
+             <br></br>
+      
+             <input name="user_email" id="user_email" required onChange={this.handleChange} placeholder="EMAIL"/>
+             <br></br>
+             <input type="submit" value="ENVIAR"/>
           
-          </div>      
+           </form>
+           
+
+          
+               
          </form>
     )
  }

@@ -13,17 +13,13 @@ class Listar extends Component{
   
     return (     
         <body>
-          <div className = "header">
-            <div className="inner_header"></div>
-          </div>
-             
-          <div className="barra1">
-            <h1>.</h1>
-          </div>
-  
-          <div className="barra3">
-            <h1>.</h1>
-          </div>
+          <div class="wrapper">
+            <div class="main_nav">
+               
+            </div>
+            <h1 class="contact_text2">USUARI<span>OS</span></h1>
+         </div>       
+      
           <div className="whiteBoard">
             <div className="line"> <p>NOME: ID: EMAIL:</p></div>
             <div className="line"><p>Dados aqui</p></div>
@@ -39,17 +35,10 @@ class Listar extends Component{
             <div className="line"><p>Dados aqui</p></div>
             <div className="line"><p>Dados aqui</p></div>
             <div className="line"><p>Dados aqui</p></div>
-            <div className="line"><p>Dados aqui</p></div>
-            <div className="line"><p>Dados aqui</p></div>
-            <div className="line"><p>Dados aqui</p></div>
-            <div className="line"><p>Dados aqui</p></div>
-            <div className="line"><p>Dados aqui</p></div>
-            <div className="line"><p>Dados aqui</p></div>
+            
           </div>
           
-          <div className="barra2">
-            <h1>.</h1>
-           </div> 
+
   
         </body>
         

@@ -5,58 +5,28 @@ import Change from './Change.js';
 
 function Alterar(){
     return (
+   
       <body>
-        
-        <div className = "header">
-          <div className="inner_header"></div>
-        </div>
+      <div class="wrapper">
+          <div class="main_nav">
+              <a class="btn_nav" href="#"></a>
+          </div>
+          <h1 class="contact_text3">DIGITE O <span>ID</span> DO USUARIO</h1>
+         
+
+          <form>
+         
            
-        <div className="barra1">
-          <h1>.</h1>
-        </div>
-
-        <div className="barra3">
-          <h1>.</h1>
-        </div>
-
-        <div className="quadro">
-        <div className = "header">
-          <div className="inner_header">
-            <strong>DIGITE O ID DO USUARIO</strong>
-          </div>
-        </div>
-
-        <form>
-          <div className="inputs">
-            <label htmlFor="idPesquisar">ID do usuario</label>
-            <input name="idPesquisar" id="idPesquisar" required/>
-          </div>
-
-          <div className="inputs">      
-              <button onClick>ENVIAR</button>
+            <input name="idPesquisar" id="idPesquisar" required placeholder="ID"/>  
+              <br></br>
+            <input type="submit" value="ENVIAR"/>
             
-          </div>       
 
-        </form>
-
-          <div className="inputs">      
-          <a href="Change.js">
-              <button onClick>Alterar</button>
-            </a>
             
-          </div>       
-
-
-        
-
-
-        </div>
-
-        <div className="barra2">
-          <h1>.</h1>
-         </div> 
-
-      </body>
+          </form>
+       </div>
+      
+  </body>
       
         )
     }
